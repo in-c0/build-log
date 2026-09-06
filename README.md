@@ -17,70 +17,70 @@ entries shown as _(private commit)_ are ones where that step withheld the messag
 
 | project | commits | first | latest |
 |---|---|---|---|
-| Sumzup | 165 | 2026-07-09 | 2026-08-22 |
-| ViBo | 155 | 2026-07-11 | 2026-08-23 |
-| ava.kim | 98 | 2026-07-17 | 2026-08-21 |
-| PersonalOS | 68 | 2026-08-20 | 2026-08-21 |
+| ViBo | 277 | 2026-07-11 | 2026-09-05 |
+| LifeOS Studio | 178 | 2026-08-18 | 2026-09-06 |
+| Sumzup | 166 | 2026-07-09 | 2026-08-28 |
+| ava.kim | 110 | 2026-07-17 | 2026-09-06 |
+| PersonalOS | 102 | 2026-08-20 | 2026-09-01 |
+| SSMT | 76 | 2026-07-26 | 2026-08-28 |
 | Dewliv | 49 | 2026-08-09 | 2026-08-16 |
-| SSMT | 48 | 2026-07-26 | 2026-08-10 |
-| Consilium | 41 | 2026-07-11 | 2026-07-29 |
-| LifeOS Studio | 39 | 2026-08-18 | 2026-08-20 |
-| cat-pose-benchmark | 14 | 2026-08-08 | 2026-08-09 |
+| Consilium | 42 | 2026-07-11 | 2026-09-06 |
+| cat-pose-benchmark | 15 | 2026-08-08 | 2026-08-21 |
 | Human Repair Map | 12 | 2026-07-27 | 2026-07-28 |
 | Twinscript | 8 | 2026-07-15 | 2026-07-16 |
 | Honest Cat | 4 | 2026-08-10 | 2026-08-10 |
 | OPM | 3 | 2026-08-20 | 2026-08-20 |
 
-**704 commits across 13 projects on 42 distinct days.**
+**1042 commits across 13 projects on 56 distinct days.**
 
 ## Monthly logs
 
-[2026-08](log/2026-08.md) · [2026-07](log/2026-07.md)
+[2026-09](log/2026-09.md) · [2026-08](log/2026-08.md) · [2026-07](log/2026-07.md)
 
 ## Recent activity
 
 | date | project | change |
 |---|---|---|
-| 2026-08-23 | ViBo | feat(i18n): the wishlist speaks Korean; pet gear gets its photo — v0.9.17 |
-| 2026-08-22 | ViBo | fix(images): a hotlinked picture gets an honest "can't" instead of buttons that fail |
-| 2026-08-22 | ViBo | feat(wishlist): the visual My Shopping Wishlist — moodboard cards, real economics, dimensions |
-| 2026-08-22 | Sumzup | queue: drop 7u-Hl_K5nqQ from landing-priority (owner unpin ruling 2026-08-22) |
-| 2026-08-22 | ViBo | chore(ops): board census + guarded deletion scripts |
-| 2026-08-22 | ViBo | docs(changelog): live cards join v0.9.16; fix test:widgets indent from the merge |
-| 2026-08-22 | ViBo | feat(widgets): live card faces — countdown, weather, wishlist sum with working ticks |
-| 2026-08-22 | ViBo | docs(changelog): add today's picture-resolution work to v0.9.16 |
-| 2026-08-22 | ViBo | feat(seed): four personal boards, incl. the wishlist salary-tease arithmetic |
-| 2026-08-22 | ViBo | feat(images): resolution on right-click, and stop the size panel hiding stored pictures |
-| 2026-08-21 | PersonalOS | Route production builds through bundle stamper |
-| 2026-08-21 | PersonalOS | Rebuild stale bundles before serving |
-| 2026-08-21 | PersonalOS | Cover stale bundle rebuild decisions |
-| 2026-08-21 | PersonalOS | Stamp PersonalOS production builds |
-| 2026-08-21 | PersonalOS | Add stamped bundle freshness checks |
-| 2026-08-21 | Sumzup | fix(deploy): --no-build, so the CLI stops rebuilding what the guard just approved |
-| 2026-08-21 | Sumzup | fix(deploy): the publish trigger survives a restart, and self-heals when it doesn't |
-| 2026-08-21 | PersonalOS | No-op metadata checkpoint |
-| 2026-08-21 | PersonalOS | Add explicit fixture and assertion count guards |
-| 2026-08-21 | PersonalOS | Keep contract fixture count explicit |
-| 2026-08-21 | PersonalOS | Document contract test check accounting |
-| 2026-08-21 | PersonalOS | Fix SurfacePresentation contract fixture syntax |
-| 2026-08-21 | PersonalOS | Refresh PR14 merge base against current master |
-| 2026-08-21 | PersonalOS | Expose loopback literal regression test |
-| 2026-08-21 | PersonalOS | Add loopback address literal regression checks |
-| 2026-08-21 | PersonalOS | Normalize loopback address literal checks |
-| 2026-08-21 | ava.kim | Capture 2026-08-21 Northstar evidence candidates |
-| 2026-08-21 | PersonalOS | Cover broker boundary for presentation contract |
-| 2026-08-21 | PersonalOS | Add surface presentation contract test |
-| 2026-08-21 | PersonalOS | Add differential surface presentation contract tests |
-| 2026-08-21 | PersonalOS | Enforce SurfacePresentation contract at LAN broker |
-| 2026-08-21 | PersonalOS | Surface invalid LAN presentation frames |
-| 2026-08-21 | PersonalOS | Align client surface presentation validation |
-| 2026-08-21 | PersonalOS | Regress loopback-lookalike DNS rebinding hosts |
-| 2026-08-21 | PersonalOS | Harden loopback hostname parsing |
-| 2026-08-21 | PersonalOS | Document hardened Surface LAN startup |
-| 2026-08-21 | PersonalOS | Fail closed on ambiguous virtual LAN adapters |
-| 2026-08-21 | PersonalOS | Avoid auto-selecting virtual LAN adapters |
-| 2026-08-21 | PersonalOS | Sync deterministic e2e harness from master |
-| 2026-08-21 | PersonalOS | Add Surface LAN hardening regressions |
+| 2026-09-06 | LifeOS Studio | fix(home): ship a production-safe interim LifeOS first impression |
+| 2026-09-06 | Consilium | Point every public reference at consilium.ava.kim, the live host |
+| 2026-09-06 | LifeOS Studio | fix(entry): gate-tight keys, second-input skip, explicit-input mode |
+| 2026-09-06 | ava.kim | content: capture Sep 5 evidence candidates |
+| 2026-09-05 | ViBo | feat(community): "Add my board" on the shelf, and your own listings marked and manageable |
+| 2026-09-05 | ViBo | feat(xp): the Tiers ladder says what each rung is worth (v0.9.37) |
+| 2026-09-05 | ViBo | test(boardcap): two read-only checks for the deployed tier reward |
+| 2026-09-05 | ViBo | test(boardcap): probes for the tier reward, and a modal that stops wrapping |
+| 2026-09-05 | ViBo | feat(community): the shelf draws each listing as a miniature of its board |
+| 2026-09-05 | ViBo | feat(community): the listing shows the board, not four of its pictures (v0.9.35) |
+| 2026-09-05 | ViBo | feat(xp): a tier that pays — Bloom lifts the board cap 10 -> 15 |
+| 2026-09-05 | ViBo | fix(ui): every text control names its own colour, and a guard that keeps it that way |
+| 2026-09-05 | ViBo | feat(wallpaper): render a ViBo board as a live desktop background [no changelog] |
+| 2026-09-05 | ViBo | feat(extension): new-tab extension that puts your ViBo board on every tab |
+| 2026-09-05 | ViBo | fix(pwa): iOS home-screen title, status bar style, and a theme-color that follows the scheme |
+| 2026-09-05 | ViBo | test(sync): the two probes that ask Postgres instead of the code |
+| 2026-09-05 | ViBo | fix(ui): the app stopped borrowing your system's dark colours |
+| 2026-09-05 | ViBo | feat(pwa): make ViBo installable — web app manifest + narrow service worker |
+| 2026-09-05 | ViBo | fix(sync): unknown, not any, on the lines this change owns |
+| 2026-09-05 | ViBo | chore: sync package-lock version to 0.9.34 |
+| 2026-09-05 | ViBo | fix(sync): null is a clear, absent is unknown — 15/15 |
+| 2026-09-05 | ViBo | test(sync): reproduce the clear that does not persist — 8 of 15 fail |
+| 2026-09-05 | ViBo | fix(layout-check): the probe could not tell an empty page from a good one |
+| 2026-09-05 | ViBo | changelog: give this work its own entry, v0.9.33 |
+| 2026-09-05 | ViBo | feat(cards): Enter finishes a node, Tab branches; the toolbar follows the side you see |
+| 2026-09-05 | ViBo | feat(cards): padding is a choice, not a hardcoded p-2/p-6 |
+| 2026-09-05 | ViBo | feat(undo): an undo step carries its selection, not just its cards |
+| 2026-09-05 | ViBo | fix(cards): four things that break when you finish a card and move on |
+| 2026-09-05 | ViBo | test(xp): what the app does when the XpAward table is missing [no changelog] |
+| 2026-09-05 | ava.kim | capture new CCS confirmatory evidence candidates |
+| 2026-09-04 | ViBo | i18n(xp): the last 14 dictionaries, and signed numbers that survive RTL |
+| 2026-09-04 | ViBo | i18n(xp): the 26 XP keys in 87 of 101 dictionaries |
+| 2026-09-04 | ViBo | changelog(xp): v0.9.29 — Points For Coming Back |
+| 2026-09-04 | ViBo | feat(xp): account XP and tiers — ledger, six-tier chip and panel, live awards (roadmap |
+| 2026-09-04 | ViBo | Share as template + community shelf, discussion and moderation (roadmap |
+| 2026-09-04 | ViBo | revert(copy): put the guide's nine paragraphs back, exactly as they were |
+| 2026-09-04 | ViBo | Friends system & invite links — bring friends onto ViBo (roadmap |
+| 2026-09-04 | ViBo | i18n(help): correct the community-templates promise in all 101 locales, not just English |
+| 2026-09-04 | ViBo | feat(ui): one-press sharing, a check-in panel that says what it means, and vote standings |
+| 2026-09-04 | ava.kim | Capture Sep 4 Northstar evidence candidates |
 
 ---
-Generated automatically from private repository metadata. Last updated 2026-08-23.
+Generated automatically from private repository metadata. Last updated 2026-09-06.
